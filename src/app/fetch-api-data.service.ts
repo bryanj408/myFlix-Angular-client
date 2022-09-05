@@ -7,10 +7,10 @@ import { map } from 'rxjs/operators';
 //get token
 const token = localStorage.getItem('token');
 //get username stored in local storage
-const username = localStorage.getItem('username');
+const username = localStorage.getItem('user');
 
 //Declaring the api url that will procide data for the client app
-const apiUrl = 'https://myFlixDB-heroku.herokuapp.com/';
+const apiUrl = 'https://myflixnetflix.herokuapp.com/';
 
 @Injectable({
   providedIn: 'root'
