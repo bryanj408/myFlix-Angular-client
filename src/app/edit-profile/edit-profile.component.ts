@@ -23,6 +23,8 @@ export class EditProfileComponent implements OnInit {
 
   /**
    * allows user to edit their data, such as Username, password, email, and birthday
+   * using POST method to update API. If user is logged out, re-route
+   * to welcome screen to login
    */
   editUser(): void {
     console.log(this.userData);

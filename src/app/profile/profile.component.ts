@@ -41,7 +41,8 @@ export class ProfileComponent implements OnInit {
   }
 
   /**
-   * opens the edit profile dialog from EditProfileComponent to allow user to edit their details
+   * opens the edit profile dialog from EditProfileComponent 
+   * to allow user to edit their details
    */
   openEditProfileDialog(): void {
     this.dialog.open(EditProfileComponent, {

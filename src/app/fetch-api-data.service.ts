@@ -1,3 +1,10 @@
+/**
+ * This is the fetch-data-api.ts that fetches data from
+ * the api initially set up with myFlix, now with typescript
+ * @returns data from API
+ */
+
+
 import { Injectable } from '@angular/core';
 // import { catchError } from 'rxjs/internal/operators';
 import {
